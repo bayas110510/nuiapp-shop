@@ -1,0 +1,52 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/news/news"
+		},
+		{
+			"path": "pages/shop/shop"
+		},
+		{
+			"path": "pages/mine/mine"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "商城",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#C0C0C0",
+		"selectedColor":"#b50e03",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-active.png"
+			},
+			{
+				"text":"咨询",
+				"pagePath":"pages/news/news",
+				"iconPath":"static/icon/news.png",
+				"selectedIconPath":"static/icon/new-active.png.png"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/shop/shop",
+				"iconPath":"static/icon/shopCar.png",
+				"selectedIconPath":"static/icon/shopCar-active.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/mine/mine",
+				"iconPath":"static/icon/mine.png",
+				"selectedIconPath":"static/icon/mine-active.png"
+			}
+		]
+	}
+}
